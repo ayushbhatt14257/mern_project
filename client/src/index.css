@@ -1,0 +1,649 @@
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.393); */
+
+
+/*   background-image: linear-gradient(to top, #fff 80%, #c3f5ff 20%);
+/*}  */
+
+.navbar-brand {
+    width: 20%;
+    display: flex;
+    font-size: 10000px;
+    justify-content: center;
+    align-items: center;
+    /* height: 7vh; */
+    background-image: linear-gradient(#8d98e3 30%, #458fee 60%);
+}
+
+.nav-Link {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
+
+
+/* Registration From Css  */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Rcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    /* background-color: #458fee; */
+}
+
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px 4px rgba(0, 0, 0, 0.1);
+    height: 70vh;
+}
+
+.title {
+    position: relative;
+    color: rebeccapurple;
+    display: flex;
+    top: 20px;
+    left: 80px;
+    font-weight: 900;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.form {
+    position: relative;
+    display: flex;
+    top: 10%;
+}
+
+.form .registrationForm {
+    position: relative;
+    width: 30%;
+    /* background-color: #8d98e3; */
+    left: 60px;
+}
+
+.inputField {
+    margin-bottom: 30px;
+    margin-left: 25px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 90%;
+    border: none;
+    /* text-transform: capitalize; */
+    outline: none;
+}
+
+.sininImage {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 30%;
+}
+
+button {
+    position: relative;
+    left: 20px;
+    padding: 5px 20px 5px 20px;
+    /* background-color: #458fee; */
+    background-color: #a8b1e76d;
+    border-radius: 2px;
+}
+
+.sininImage figure img {
+    width: 200%;
+    height: auto;
+}
+
+.link {
+    position: relative;
+    left: 80%;
+}
+
+@media(max-width: 413px) {
+    .registerContainer {
+        width: 80%;
+        /* margin-top: -10%; */
+        height: 80vh;
+        box-shadow: none;
+        /* box-shadow: 5px 5px 9px 4px rgba(0, 0, 0, 0.1); */
+    }
+    .title {
+        /* position: relative; */
+        color: rebeccapurple;
+        display: flex;
+        top: 20px;
+        left: 30px;
+        font-weight: 900;
+    }
+    .form {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .form .registrationForm {
+        width: 90%;
+        left: 0px;
+    }
+    .sininImage {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-top: -10%;
+        margin-left: 15%;
+    }
+    .sininImage figure img {
+        width: 150%;
+        height: auto;
+    }
+    .link {
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+        margin-bottom: 30%;
+        left: 10%;
+        font-size: 16px;
+        width: 100% !important;
+    }
+}
+
+
+/* login Form css */
+
+.loginSection {
+    display: flex;
+    width: 100%;
+    height: 92vh;
+    /* background-color: #458fee; */
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer {
+    /* display: flex; */
+    width: 70%;
+    height: 70%;
+    box-shadow: 5px 5px 9px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.loginMainContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.loginTitle {
+    position: relative;
+    font-size: 2.7em;
+    font-weight: 800;
+    left: 70px;
+    display: flex;
+    top: 20px;
+}
+
+div .logInImage {
+    display: inline;
+    width: 30%;
+    /* flex-direction: column;s */
+}
+
+.loginLink {
+    display: flex;
+    height: 2px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+figure {
+    position: relative;
+    display: flex;
+}
+
+div.loginForm {
+    position: relative;
+    top: -200px;
+    /* display: flex; */
+    width: 40%;
+    float: right;
+    /* left: -100px; */
+}
+
+.logInField {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.logInField input {
+    width: 70%;
+    border-bottom: 2px solid black;
+}
+
+.logInImage img {
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 35%;
+    height: auto;
+}
+
+.loginBtn {
+    margin-top: 20px;
+    left: 50%;
+}
+
+@media(max-width: 412px) {
+    .loginSection {
+        display: flex;
+        width: 102%;
+        height: 92vh;
+        /* background-color: #458fee; */
+        justify-content: center;
+        align-items: center;
+    }
+    .loginContainer {
+        /* display: flex; */
+        width: 85%;
+        height: 70%;
+        margin-top: -40%;
+        box-shadow: none;
+        border-radius: 20px;
+    }
+    .loginMainContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px 20px 20px;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .loginTitle {
+        position: relative;
+        font-size: 2em;
+        font-weight: 800;
+        left: 10px;
+        display: block;
+        top: 0px;
+    }
+    div .logInImage {
+        /* display: flex; */
+        width: 40%;
+        flex-direction: column;
+    }
+    .loginLink {
+        display: flex;
+        height: 2px;
+        float: left;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    figure {
+        position: relative;
+        display: flex;
+    }
+    div.loginForm {
+        /* position: relative; */
+        top: 80px;
+        left: 12%;
+        /* display: flex; */
+        width: 100%;
+        /* float: b; */
+        /* left: -100px; */
+    }
+    .logInField {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .logInField input {
+        width: 70%;
+        border-bottom: 2px solid black;
+    }
+    .logInImage img {
+        margin-top: 50px;
+        margin-left: 70px;
+        width: 50%;
+        height: auto;
+    }
+    .loginBtn {
+        margin-top: 20px;
+        left: 50%;
+    }
+}
+
+
+/* contact Css */
+
+.cartContainer {
+    width: 100%;
+    height: 90vh;
+}
+
+.mainCart {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cart {
+    box-shadow: 5px 5px 9px 4px rgba(0, 0, 0, 0.1);
+    width: 21%;
+    height: 8vh;
+    border-radius: 10px;
+    /* background-image: linear-gradient(#16bffd44 10%, #cb306639 90%); */
+    background: linear-gradient(110deg, #fdcc3b7e 60%, #ffed4b81 60%);
+}
+
+.cart i {
+    margin-left: 27px;
+    color: #458fee;
+    margin-top: 15px;
+}
+
+.cart h2 {
+    display: inline;
+    margin-left: 29px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.cart p {
+    margin-left: 70px;
+}
+
+.contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.contactContainer {
+    width: 50%;
+    height: 50vh;
+    box-shadow: 5px 5px 9px 4px rgba(0, 0, 0, 0.3);
+    /* background-image: linear-gradient(rgb(151, 179, 193) 20%, rgba(166, 231, 225, 0.427) 70%); */
+    /* background-image: linear-gradient(#16bffd44 10%, #cb306639 90%); */
+    background: linear-gradient(110deg, #fdcc3b7d 60%, #ffed4b7e 60%);
+    border-radius: 10px;
+}
+
+.contactMain {
+    padding: 20px 20px 20px 25px;
+}
+
+.contactMain h1 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact input {
+    margin: 20px 29px 25px 0px;
+    padding: 8px 15px 8px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.submitBtn {
+    left: -0.2%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 50px 5px 50px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    background: linear-gradient(110deg, #fd3be381 60%, #f193ff88 60%);
+}
+
+.contactMain textarea {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+@media (max-width: 412px) {
+    .cartContainer {
+        width: 100%;
+        height: 90vh;
+    }
+    .mainCart {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: space-evenly;  */
+    }
+    .cart {
+        box-shadow: none;
+        width: 80%;
+        height: 8vh;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-image: none
+    }
+    .cart i {
+        margin-left: 27px;
+        margin-top: 17px;
+        color: #458fee;
+    }
+    .cart h2 {
+        display: inline;
+        margin-left: 30px;
+        margin-top: -10px;
+        font-size: 20px;
+    }
+    .cart p {
+        margin-left: 70px;
+    }
+    .contactForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .contactContainer {
+        width: 90%;
+        height: 80vh;
+        box-shadow: 5px 5px 9px 4px rgba(0, 0, 0, 0.3);
+        /* background-image: linear-gradient(rgb(151, 179, 193) 20%, rgba(166, 231, 225, 0.427) 70%); */
+        background-image: none;
+        border-radius: 10px;
+    }
+    .contactMain {
+        padding: 20px 20px 20px 25px;
+    }
+    .contactMain h1 {
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .contact {
+        display: block;
+        width: 100%;
+    }
+    .contact input {
+        margin: none;
+        margin-bottom: -10px;
+        width: 100%;
+        padding: none;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+    }
+    .submitBtn {
+        left: -0.2%;
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 5px 50px 5px 50px;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        background-image: linear-gradient(rgba(233, 186, 243, 0.07) 20%, rgba(213, 112, 236, 0.075) 70%);
+    }
+    .contactMain textarea {
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+
+/* home css */
+
+.homeContainer {
+    display: flex;
+    height: 92vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+.homeMain p {
+    font-size: 2em;
+}
+
+.homeMain h1 {
+    text-transform: capitalize;
+    font-weight: 900;
+    word-spacing: 6px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.homeMain h2 {
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+
+@media(max-width: 412px) {
+    .homeContainer {
+        width: 102%;
+        height: 95vh;
+    }
+    .homeMain h2 {
+        letter-spacing: 5px;
+    }
+}
+
+
+/* about section css   */
+
+.container {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    box-shadow: 5px 5px 9px 4px rgba(0, 0, 0, 0.1);
+    height: 70vh;
+}
+
+.row {
+    /* width: 80%; */
+    margin-left: 30%;
+    margin-top: 30%;
+}
+
+.about-info {
+    margin-left: 34%;
+}
+
+.profileImg {
+    width: 30%;
+    /* background-color: blueviolet; */
+}
+
+.profileImg img {
+    width: 40%;
+    margin-left: 30px;
+    height: auto;
+}
+
+.profileHead {
+    margin-top: 40px;
+}
+
+.col-md-6 p {
+    color: blue;
+}
+
+@media(max-width: 412px) {
+    .container {
+        margin-top: 4%;
+        box-shadow: 5px 5px 9px 4px rgba(0, 0, 0, 0.1);
+        height: 90vh;
+        margin-left: none;
+    }
+    .row {
+        /* width: 80%; */
+        margin-left: 0%;
+        margin-top: 0%;
+        display: flex;
+    }
+    .about-info {
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    .profileImg {
+        width: 30%;
+        /* background-color: blueviolet; */
+    }
+    .profileImg img {
+        width: 40%;
+        margin-left: 30px;
+        height: auto;
+    }
+    .profileHead {
+        margin-top: 40px;
+    }
+    .col-md-6 p {
+        color: blue;
+    }
+}
+
+
+/* footer css  */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.133);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+@media(max-width: 412px) {
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.133);
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+}
